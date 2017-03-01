@@ -5,6 +5,7 @@ include 'session.php';
 	if (!empty($_SESSION['username'])){
 		$username= $_SESSION['username'];
 	}
+
 ?>
 <h2>WELCOME, <?php echo $username?></h2>
 <h3>
